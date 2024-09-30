@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #3a8ad9; /* Один цвет фона */
+}
+
+canvas {
+    border: 1px solid #000;
+    touch-action: none; /* Отключаем стандартное поведение для сенсорных экранов */
+}
